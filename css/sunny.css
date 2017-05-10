@@ -1,0 +1,43 @@
+#fundo {
+    background: rgb(252, 248, 197);
+}
+
+#solzinho {
+    background: url(/Users/mafra/Projetos/IBM/new_sunny/img/sunny/simbolo-sol-dia.png);
+    width: 514px;
+    height: 509px;
+}
+
+#termometro {
+    background: url(/Users/mafra/Projetos/IBM/new_sunny/img/termometro/icon-termo-30.png);
+    width: 116px;
+    height: 397px;
+}
+
+.solzinho-termometro {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.icones-top {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+#icons {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#numero-pessoas {
+    display: inline-block;
+    font-size: 90px;
+}
+
+.fonte-padrao {
+    color: #B38B1C;
+    font-family: 'arial';
+}
