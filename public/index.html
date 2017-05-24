@@ -8,6 +8,7 @@
   <link href="css/reset.css" rel="stylesheet">
   <link href="css/sunny.css" rel="stylesheet">
   <link href="css/watson.css" rel="stylesheet">
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
 
@@ -15,16 +16,14 @@
 
 <body id="fundo">
   <main class="container">
-
+  <div class="row">
+  <div class="col-xs-5 col-sm-6 col-md-7">
     <div class="topo">
       <img class="icons" src="./img/icon/icon-user-dia.png" />
       <h3 class="h3-fonte"> 5 </h3>
       <img class="icons" src="./img/luz/icon-luz-fechada-dia.png" />
       <img class="icons" src="./img/porta/icon-porta-fechada-dia.png" />
     </div>
-
-
-
 
     <div class="sol-termometro">
       <img id="sol" src="./img/sunny/sunny-idol.gif" />
@@ -35,7 +34,8 @@
 
     </div>
 
-    <section class="watson col-lg-5">
+  </div>
+      <div class="col-xs-6 col-md-5">
       <div id='animation' class='animated bounceInRight'>
         <div class="tile tile-alt" id="messages-main">
           <div class="ms-body limit-overflow" id="scroll-fixed">
@@ -52,11 +52,13 @@
         </div>
         <audio id="audio"> Your browser does not support the audio element.</audio>
       </div>
+      </div>
       <div class="button" onclick="button_animation()">
         <img src="img/chatButton.png">
       </div>
-    </section>
 
+
+  </div>
   </main>
 
   <script src="js/jquery/jquery-3.2.1.min.js"></script>
