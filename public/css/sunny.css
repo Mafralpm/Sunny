@@ -13,22 +13,24 @@
     text-align: center;
 }
 
-.button{
+.button {
     float: right;
-
 }
 
 .h3-fonte {
-    display: inline-block;
     font-size: 6em;
     color: #b38b1c;
     font-family: 'arial';
 }
 
 .icons {
-  padding-top: 7px;
+    /*padding-top: 7px;*/
+    /*display: inline-block;*/
+    /*width: 20%;*/
+}
 
-    display: inline-block;
+.icones-top {
+    width: 100%;
 }
 
 .sol-termometro {
