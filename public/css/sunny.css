@@ -2,9 +2,14 @@
     background: rgb(252, 248, 197);
 }
 
-.container {
+/*.container {
     width: 90%;
     margin: 0 auto;
+}*/
+
+.sunny-watson{
+    margin-top: 20px;
+    width: 120%;
 }
 
 .topo {
@@ -24,20 +29,71 @@
 }
 
 .icons {
-    /*padding-top: 7px;*/
+    padding-top: 7px;
+    width: 5%;
+}
+.icones{
+    background: linear-gradient(to right, #EBD685, #FEF8C4);
+    height: 100px;
     /*display: inline-block;*/
-    /*width: 20%;*/
+
 }
 
-.icones-top {
-    width: 100%;
+p{
+    text-align: center;
+    float: right;
+    padding-right: 10px;
+    padding-top: 40px;
+    display: block;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+    font-size: 16px;
 }
 
-.sol-termometro {
+section{
+    /*background: #FFF;
+    border: 1px solid #000;
+    border-color: #CCC #999 #999 #CCC;*/
+    padding: 10px;
+    margin-left: 10px;
+    float: left;
+
+}
+
+
+#usuario{
+    float: left;    
+    width: 70px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#porta{
+    width: 80px;
+    margin-top: 17px;
+
+}
+
+#luz{
+    width: 100px;
+}
+
+#termometro{
+    width: 5px;
+    margin-left: 290px;
+    margin-top: 10px;
+}
+
+/*.frase{
+    position: static;
+    display: block;
+}*/
+
+
+/*.sol-termometro {
     width: 100%;
     display: inline-block;
     text-align: center;
-}
+}*/
 
 #sol {
     max-width: 514px;
@@ -67,4 +123,24 @@
     width: 100%;
     height: 100%;
     vertical-align: center;
+}
+
+
+.circle{
+    border-radius:100%;
+    border: 10px solid #6C3400;
+    width: 30px;
+    height: 30px;
+    background-color:#6C3400;
+    margin-top: 55px;
+    margin-left: 55px;
+    position: absolute;
+}
+
+.icones-top {
+    width: 100%;
+}
+
+body{
+    height: 820px;
 }

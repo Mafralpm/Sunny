@@ -15,43 +15,54 @@
 </head>
 
 <body id="fundo">
-    <main class="container">
-        <div class="row">
+
+    <div class="row icones">
             <div class "icones-top">
-                <img class="icons col-xs-3 col-sm-2 col-md-2 col-sm-offset-2 col-md-offset-3 col-lg-offset-2" src="./img/icon/icon-user-dia.png" />
-                <h3 class="h3-fonte col-xs-3 col-sm-2 col-md-2"> 5 </h3>
-                <img class="icons col-xs-3 col-sm-2 col-md-2" src="./img/luz/icon-luz-fechada-dia.png" />
-                <img class="icons col-xs-3 col-sm-2 col-md-2" src="./img/porta/icon-porta-fechada-dia.png" />
+                <section>
+                    <img id="usuario" class="icons col-xs-3 col-sm-2 col-md-2 col-sm-offset-2 col-md-offset-3 col-lg-offset-2" src="./img/icon/icon-user-dia.png" />
+                    <p>Pessoas na Sala</p>
+                    <div class="circle"></div>
+                </section>
+                <section>
+                    <img id="porta" class="icons col-xs-3 col-sm-2 col-md-2" src="./img/porta/icon-porta-fechada-dia.png" />                
+                    <p>Porta fechada</p>
+                </section>
+                <section>
+                <img id="luz" class="icons col-xs-3 col-sm-2 col-md-2" src="./img/luz/icon-luz-fechada-dia.png" />
+                    <p>Luz apagada</p>                    
+                </section>
+                <section>
+                <!--<img id="termometro" class="col-xs-2 col-sm-2 col-md-2 col-lg-2" src="./img/termometro/icon-termo-30.png" />                    -->
+                    <!--<p>Média de 20</p>>-->
+                </section>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row sunny-watson" id="center-div">
             <img class="col-xs-7 col-sm-7 col-md-5 col-lg-5 col-md-offset-1" src="./img/sunny/sunny-idol.gif" />
-            <img class="col-xs-2 col-sm-2 col-md-2 col-lg-2" src="./img/termometro/icon-termo-30.png" />
 
-            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-4">
+              <section class="watson col-lg-5 col-xs-3 col-sm-3 col-md-4 col-lg-4">
                 <div id='animation' class='animated bounceInRight'>
-                    <div class="tile tile-alt" id="messages-main">
-                        <div class="ms-body limit-overflow" id="scroll-fixed">
-                            <div class="action-header clearfix">
-                            </div>
-                        </div>
-                        <div class="msb-reply">
-                            <textarea id="input" onkeypress="handle(event)" placeholder="converse com o watson"></textarea>
-                            <button onclick="enviarMensagem()"><i class="fa fa-paper-plane-o"></i></button>
-                            <div id="input-mic-holder" class="mic">
-                                <img id="input-mic" src="img/microphone-desligado.png">
-                            </div>
-                        </div>
+                  <div class="tile tile-alt" id="messages-main">
+                    <div class="ms-body limit-overflow" id="scroll-fixed">
+                      <div class="action-header clearfix">
+                      </div>
                     </div>
-                    <audio id="audio"> Your browser does not support the audio element.</audio>
+                    <div class="msb-reply">
+                      <textarea id="input" onkeypress="handle(event)" placeholder="converse com o watson"></textarea>
+                      <button onclick="enviarMensagem()"><i class="fa fa-paper-plane-o"></i></button>
+                      <div id="input-mic-holder" class="mic">
+                        <img id="input-mic" src="img/microphone-desligado.png">
+                      </div>
+                    </div>
+                  </div>
+                  <audio id="audio"> Your browser does not support the audio element.</audio>
                 </div>
                 <div class="button" onclick="button_animation()">
-                    <img src="img/chatButton.png">
+                  <img src="img/chatButton.png">
                 </div>
-            </div>
+              </section>
         </div>
-    </main>
 
     <script src="js/jquery/jquery-3.2.1.min.js"></script>
 
